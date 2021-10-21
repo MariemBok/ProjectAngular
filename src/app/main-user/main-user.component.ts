@@ -7,6 +7,7 @@ import { User } from '../model/user';
   styleUrls: ['./main-user.component.css'],
 })
 export class MainUserComponent implements OnInit {
+  inputCategory: String;
   list: User[];
   constructor() {}
 
@@ -73,5 +74,10 @@ export class MainUserComponent implements OnInit {
   delete(user: User) {
     let i = this.list.indexOf(user);
     this.list.splice(i, 1);
+  }
+  getColor(user: User){
+    if(user.accountCategory=="Blocked Account")
+    return 'red';
+    else return '';
   }
 }
