@@ -12,6 +12,7 @@ import { ListUserComponent } from './list-user/list-user.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { FormUserComponent } from './form-user/form-user.component';
 
 
 
@@ -23,7 +24,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     ProductComponent,
     ListUserComponent,
     HomeComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    FormUserComponent
   ],
   imports: [
     BrowserModule,
