@@ -14,6 +14,8 @@ import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { FormUserComponent } from './form-user/form-user.component';
 import { LoginComponent } from './login/login.component';
+import { MainProductComponent } from './main-product/main-product.component';
+import { BestSellerProductComponent } from './best-seller-product/best-seller-product.component';
 
 
 
@@ -27,7 +29,9 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     NotfoundComponent,
     FormUserComponent,
-    LoginComponent
+    LoginComponent,
+    MainProductComponent,
+    BestSellerProductComponent
   ],
   imports: [
     BrowserModule,
